@@ -1,0 +1,370 @@
+.header {
+    background-image: url(/images/background.png);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 10px 100px;
+    margin: 30px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+
+    margin: 0;
+    padding: 0;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: grey;
+    border-radius: 4px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.btn1 {
+    background-color: rgb(98, 193, 248);
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: blueviolet;
+}
+.login {
+
+
+}
+
+.section1 {
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 600px;
+    padding: 30px;
+    text-align: left;
+    box-sizing: content-box;
+}
+
+h6 {
+    color: rgb(98, 193, 248);
+    font-size: 20px;
+}
+
+
+.btn2 {
+    background-color: skyblue;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.section2 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contianer2 h2 {
+    color: #00a8ff;
+}
+
+.container2 h1 {
+    font-size: 25px;
+    overflow: hidden;
+
+    margin: 20px;
+}
+
+.container2 p {
+    margin-bottom: 40px;
+}
+
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1 {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: black;
+}
+
+.section3 {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around
+}
+
+.content {
+    margin: 0px;
+    padding: 40px;
+}
+
+
+.content p {
+    margin: 20px;
+
+}
+
+.learn-more {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more i {
+    margin-left: 5px;
+}
+
+.image-container3 {
+    position: relative;
+    box-shadow: 10px;
+    margin-right: 100px;
+    border-radius: 20px;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    background-color: ghostwhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.perc {
+    width: 140px;
+}
+
+.temp {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+
+
+.section4 {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 11px;
+}
+
+.card2 {
+
+    background-color: white;
+    color: black;
+    position: relative;
+    border-radius: 8px;
+    width: 250px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card2 p {
+    font-size: 14px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section5 {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    color: grey;
+}
+
+h5 {
+    color: skyblue;
+}
+
+.card3 {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.card3 .card3Img {
+
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+}
+
+.card3 p {
+    color: grey;
+    font-size: 14px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section6 {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    color: skyblue;
+}
+
+.search {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 58px;
+
+}
+
+.searchbar {
+    border-radius: 50px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar .w {
+    width: 688px;
+}
+
+
+.section7 {
+    font-family: Arial, sans-serif;
+    background-color: #192a56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section8 {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 450px) {
+    .header {}
+}
