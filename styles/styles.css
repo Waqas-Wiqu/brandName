@@ -6,14 +6,13 @@
 
 .navbar {
     padding: 10px 100px;
-    margin: 30px;
+    margin: 20px 10px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
     justify-content: space-between ;
-
     margin: 0;
     padding: 0;
 }
@@ -122,6 +121,10 @@ body {
     box-shadow: black;
 }
 
+.card1 p {
+    color: grey;
+}
+
 .section3 {
     font-family: Arial, sans-serif;
     background-color: #192a56;
@@ -137,15 +140,10 @@ body {
 }
 
 .content {
-    margin: 0px;
+    margin: 20px;
     padding: 40px;
 }
 
-
-.content p {
-    margin: 20px;
-
-}
 
 .learn-more {
     color: skyblue;
@@ -199,10 +197,8 @@ body {
     background-color: white;
     color: black;
     position: relative;
-    border-radius: 8px;
     width: 250px;
     margin: 5px;
-    padding: 15px;
 }
 
 .sale {
@@ -218,26 +214,39 @@ body {
 
 .card2 img {
     width: 100%;
-    border-radius: 8px;
+    
 }
 
 .card2 p {
     font-size: 14px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
 }
+
+.card2 h2 {
+    color: #00a8ff;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
 
 .price {
     color: green;
     font-weight: bold;
 }
 
-.button {
-    background-color: skyblue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.card2 button {
+    border: 2px solid skyblue;
     cursor: pointer;
-    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    color: #00a8ff;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
 }
 
 .main {
@@ -254,11 +263,11 @@ body {
     padding: 10px;
 }
 
-h4 {
+.section5 h4 {
     color: grey;
 }
 
-h5 {
+.section5 h5 {
     color: skyblue;
 }
 
@@ -311,8 +320,11 @@ h5 {
     text-align: center;
     padding: 20px;
 }
+.section6 p {
+    
+}
 
-h5 {
+.section6 h5 {
     color: skyblue;
 }
 
@@ -320,15 +332,17 @@ h5 {
     background-color: skyblue;
     color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
     height: 58px;
+    margin: 0px -5px;
+    width: 117px;
 
 }
 
 .searchbar {
-    border-radius: 50px;
+    border-radius: 5px;
+    padding-top: 20px;
     height: 58px;
     display: flex;
     justify-content: center;
@@ -336,6 +350,7 @@ h5 {
 
 .searchbar .w {
     width: 688px;
+    padding: 20px;
 }
 
 
@@ -356,7 +371,8 @@ h5 {
 
 .icon2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 
 .section8 {
