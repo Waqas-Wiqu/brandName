@@ -1,20 +1,15 @@
 .header {
     background-image: url(/images/background.png);
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
-}
-
-.navbar {
-    padding: 10px 100px;
-    margin: 20px 10px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
     justify-content: space-between ;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    width: 80%;
 }
 
 .lists {
@@ -39,9 +34,13 @@
 }
 
 .btn1 {
-    background-color: rgb(98, 193, 248);
-    margin: 20px;
-    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    line-height: 22px;
+    width: 214px;
+    height: 52px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
 }
@@ -49,22 +48,16 @@
 .btn1:hover {
     color: blueviolet;
 }
-.login {
-
-
-}
 
 .section1 {
-    margin-left: 100px;
-    margin-bottom: 30px;
-    margin-right: 600px;
-    padding: 30px;
-    text-align: left;
-    box-sizing: content-box;
+    width: 80%;
+    margin: auto;
+    
+   
 }
 
-h6 {
-    color: rgb(98, 193, 248);
+.section1 h6 {
+    color: skyblue;
     font-size: 20px;
 }
 
@@ -89,21 +82,13 @@ body {
 .section2 {
     text-align: center;
     padding: 50px 20px;
+    display: grid;
+    gap: 80px;
 }
 
-.contianer2 h2 {
-    color: #00a8ff;
-}
-
-.container2 h1 {
-    font-size: 25px;
-    overflow: hidden;
-
-    margin: 20px;
-}
-
-.container2 p {
-    margin-bottom: 40px;
+.section2 h6 {
+    color: skyblue;
+    font-size: 14px;
 }
 
 .packages {
@@ -115,7 +100,6 @@ body {
 .card1 {
     color: black;
     background-color: white;
-    border-radius: 10px;
     padding: 20px;
     width: 250px;
     box-shadow: black;
@@ -132,6 +116,10 @@ body {
     margin: 0px;
     padding: 0px;
 
+}
+
+.section3 h5 {
+    color: skyblue;
 }
 
 .container3 {
@@ -192,6 +180,9 @@ body {
     font-size: 11px;
 }
 
+.section4 h5 {
+    color: skyblue;
+}
 .card2 {
 
     background-color: white;
@@ -220,14 +211,12 @@ body {
 .card2 p {
     font-size: 14px;
     margin: 10px;
-    display: flex;
-    justify-content: left;
+    text-align: left;
 }
 
 .card2 h2 {
-    color: #00a8ff;
-    display: flex;
-    justify-content: left;
+    color: skyblue;
+    text-align: left;
     margin: 10px;
 }
 
@@ -242,7 +231,7 @@ body {
     cursor: pointer;
     background-color: white;
     border-radius: 20px;
-    color: #00a8ff;
+    color: skyblue;
     font-weight: bold;
     display: flex;
     justify-content: left;
@@ -275,7 +264,7 @@ body {
     background-color: white;
     color: black;
     border-radius: 8px;
-    width: 250px;
+    width: 220px;
     padding: 20px;
     margin: 5px;
 }
@@ -320,9 +309,7 @@ body {
     text-align: center;
     padding: 20px;
 }
-.section6 p {
-    
-}
+
 
 .section6 h5 {
     color: skyblue;
@@ -377,8 +364,9 @@ body {
 
 .section8 {
     background-color: white;
+    color: grey;
     padding: 10px;
-    text-align: center;
+    text-align: center; 
 }
 
 @media screen and (max-width : 450px) {
